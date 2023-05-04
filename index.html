@@ -11,26 +11,29 @@
     <script>
 		
 		
-        // let ans=[20,30,40,50,60];
+        let ans=[20,30,40,50,60];
         // console.log(ans.length);
         // console.log(ans);
 
         
         // ans.push(10)
         // ans.push(11)
-        // ans.push(12)
+        // console.log(ans.push(12))
 		// console.log(ans);
 
 
-        
+        // console.log(ans);
         // ans.unshift(10);
         // ans.unshift(11);
-        // ans.shift(12);
+        // ans.shift();
 		// console.log(ans);
 
-        // ans.splice(4,0,10)
-        // ans.splice(5,0,11)
-        // ans.splice(6,0,12)
+		console.log(ans);
+        let b = ans.slice(2)
+        //ans.slice(5,0,11)
+		//console.log(ans);
+        //console.log(ans.slice(3,2,12,15))
+		console.log(b);
 
         // let value=[[1,2,3],["one","two","three"],{
         //     name:"ganesh",
@@ -136,13 +139,13 @@
 				
 		// 		<!-- 6    slice     -->
 				
-			let a=[10,20,30,40,50,60,70,80,90];
-				console.log(a);
-			let b=a.length;
-				console.log(b);
-			let c=a.slice(2,7,100,200,300);
-				console.log(c);
-				console.log(a);
+			// let a=[10,20,30,40,50,60,70,80,90];
+			// 	console.log(a);
+			// let b=a.length;
+			// 	console.log(b);
+			// let c=a.slice(2,7,100,200,300);
+			// 	console.log(c);
+			// 	console.log(a);
 				
 		// 		<!-- 7    indexof    -->
 				
@@ -200,9 +203,9 @@
 				
 		// ----------Array ES-6 Methods----------------
 
-		//  let arr=[1,2,3,4,5];
+		 let arr=[1,2,3,4,5];
 
-		// 		ForEach
+		//     ForEach
         // arr.forEach(function(values,index,array){
         //     console.log(values,index,array)
         // })
@@ -210,14 +213,14 @@
 		// 		Map
 
         // let res= arr.map(function(values,index,array){
-        //    return values *2;
+        //    return index *2;
         // })
         // console.log(res)
 
 		// 		Filter
 
         // let res= arr.filter(function(values,index,array){
-        //    return index > 2;
+        //    return values > 2;
         // })
         // console.log(res)
 
@@ -243,14 +246,23 @@
         // console.log(res)
 		
 		
-		// 		find
+		// 		findindex
         
-        // let res= arr.find(function(values,index,array){
+        // let res= arr.findIndex(function(values,index,array){
         //    return values > 2 ;
         // })
         // console.log(res)
 		
-				
+		// local storage usage
+
+        // let obje={
+        //     name:"harish",
+        //     profession:"Hacker"
+        // }
+        // localStorage.setItem("vals",obje);
+
+        // let ax=localStorage.getItem("vals");
+        // console.table(ax.vals);
 			
 				
 				
